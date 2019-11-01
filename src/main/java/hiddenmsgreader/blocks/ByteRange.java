@@ -1,6 +1,6 @@
-package blocks;
+package hiddenmsgreader.blocks;
 
-public class ByteRange implements Comparable{
+public class ByteRange implements Comparable {
 
   private int begin;
 
@@ -15,26 +15,18 @@ public class ByteRange implements Comparable{
     return begin;
   }
 
-  public void setBegin(int begin) {
-    this.begin = begin;
-  }
-
   public int getEnd() {
     return end;
   }
 
-  public void setEnd(int end) {
-    this.end = end;
-  }
-
   @Override
   public int compareTo(Object o) {
-    ByteRange other = (ByteRange)o;
+    ByteRange other = (ByteRange) o;
     return getBegin() - other.getBegin();
   }
 
   @Override
   public boolean equals(Object obj) {
-    return ((ByteRange)obj).getBegin() == getBegin();
+    return ((ByteRange) obj).getBegin() == getBegin();
   }
 }

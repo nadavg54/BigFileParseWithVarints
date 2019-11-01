@@ -1,8 +1,6 @@
-package controlbufferreader.varints;
+package hiddenmsgreader.varints;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class VarintsReaderWriterTest {
 

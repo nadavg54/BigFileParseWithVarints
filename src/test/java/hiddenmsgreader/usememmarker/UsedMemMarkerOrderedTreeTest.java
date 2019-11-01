@@ -1,6 +1,6 @@
-package controlbufferreader.usememmarker;
+package hiddenmsgreader.usememmarker;
 
-import blocks.ByteRange;
+import hiddenmsgreader.blocks.ByteRange;
 import org.junit.Test;
 
 import java.util.ArrayList;
